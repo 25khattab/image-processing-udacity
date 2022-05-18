@@ -8,7 +8,7 @@ const image = express.Router();
 image.get(
     '/',
 
-    async (req, res) => {
+    async (req : express.Request, res:express.Response) : Promise<void> => {
         //res.send("main image route")
         const imgName: string = req.query.filename as string;
         const imgWidth: number = parseInt(req.query.width as string);
