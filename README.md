@@ -22,7 +22,7 @@ navigate to the endpoint
 
 ex : 
 ```
-localhost:3000/api/images?filename=yourFilename&&hieght=200&&width=200
+localhost:3000/api/images?filename=yourFileName&&hieght=200&&width=200
 ```
 The image is resized and you can check your file at : 
 
